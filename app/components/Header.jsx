@@ -126,7 +126,7 @@ const Header = () => {
                                     </Popover.Button>
                                     
                                     <Popover.Button as={Link} className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
-                                    href="/cv"    
+                                    href="/sample_cv.pdf" download="Seonyoon_Kim_CV.pdf"    
                                     >
                                         <span className='w-6 h-6 mr-2 transition'>
                                             <Folder />
