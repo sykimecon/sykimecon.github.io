@@ -20,6 +20,7 @@ const AboutComponent = () => {
             placeholder="blur"
             width={200}
             height={200}
+            unoptimized={true}
             // sizes={"100vw"}
             className=' object-contain rounded-xl mb-5 sm:flex'
             />
