@@ -13,7 +13,7 @@ const AboutComponent = () => {
     <div className="sm:grid-flow-row md:grid md:grid-cols-5">
         <div className="grid justify-center items-center bg-[#FBFFFB] rounded-lg p-2 md:h-32">
             <Image
-            src="/images/sy.jpg"
+            src={"./images/sy.jpg"}
             blurDataURL='sy'
             alt="seo kim"
             quality={10}
