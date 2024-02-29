@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import placeholderImage from '../../public/images/placeholder-photo.webp';
+import placeholderImage from '../../public/images/sy.jpg';
 import Link from 'next/link';
 
 import AcademicCapDark from '../icons/academic_cap_dark';
