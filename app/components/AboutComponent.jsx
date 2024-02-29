@@ -70,7 +70,7 @@ const AboutComponent = () => {
                     Creative problem solver, applying strategic thinking and resource management skills honed in gaming to real-world challenges.
                     Passionate about fostering a positive and inclusive gaming environment for all.
 
-    This unique blend of technical expertise and gaming passion fuels my drive to create innovative solutions and contribute meaningfully to both the cloud and gaming communities. I'm constantly learning, exploring, and pushing boundaries, always striving to make a positive impact.
+                    This unique blend of technical expertise and gaming passion fuels my drive to create innovative solutions and contribute meaningfully to both the cloud and gaming communities. I'm constantly learning, exploring, and pushing boundaries, always striving to make a positive impact.
                 </p>
             </div>
 
