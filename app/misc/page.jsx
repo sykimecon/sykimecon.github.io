@@ -1,10 +1,9 @@
+import MiscComponent from "../components/MiscComponent"
 
 
 const Misc = () => {
   return (
-    <>
-    Misc Page
-    </>
+    <MiscComponent />
   )
 }
 

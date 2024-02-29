@@ -1,8 +1,8 @@
+import CvComponent from "../components/CvComponent"
+
 const Cv = () => {
   return (
-    <>
-    CV Page
-    </>
+    <CvComponent />
   )
 }
 
