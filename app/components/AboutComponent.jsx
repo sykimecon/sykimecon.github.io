@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import placeholderImage from '../../public/images/sy.jpg';
+//import placeholderImage from '../../public/images/sy.jpg';
 import Link from 'next/link';
 
 import AcademicCapDark from '../icons/academic_cap_dark';
@@ -13,7 +13,8 @@ const AboutComponent = () => {
     <div className="sm:grid-flow-row md:grid md:grid-cols-5">
         <div className="grid justify-center items-center bg-[#FBFFFB] rounded-lg p-2 md:h-32">
             <Image
-            src={placeholderImage}
+            src="/images/sy.jpg"
+            blurDataURL='sy'
             alt="seo kim"
             quality={10}
             placeholder="blur"
