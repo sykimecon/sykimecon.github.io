@@ -53,33 +53,6 @@ const AboutComponent = () => {
             </div>
 
 
-            <div>
-                <h2 className='text-xl font-medium m-2'>
-                <span>Cloud Engineering:</span>
-                </h2>
-                <p className=' leading-loose text-justify mb-5 p-2 text-slate-700'>
-                    Over 5 years of experience designing, deploying, and managing cloud infrastructure on platforms like AWS, Azure, and GCP.
-                    Expertise in automation tools like Terraform, Ansible, and CloudFormation, streamlining infrastructure provisioning and management.
-                    Security-conscious approach, ensuring robust and compliant cloud environments.
-                    Thriving on challenges and finding innovative solutions to complex cloud problems.
-                </p>
-            </div>
-
-
-            <div>
-                <h2 className='text-xl font-medium m-2'>
-                <span>Gaming:</span>
-                </h2>
-                <p className=' leading-loose text-justify mb-5 p-2 text-slate-700'>
-                    Veteran gamer with a deep understanding of various game genres and mechanics.
-                    Active in the gaming community, participating in online discussions, tournaments, and events.
-                    Creative problem solver, applying strategic thinking and resource management skills honed in gaming to real-world challenges.
-                    Passionate about fostering a positive and inclusive gaming environment for all.
-
-                    This unique blend of technical expertise and gaming passion fuels my drive to create innovative solutions and contribute meaningfully to both the cloud and gaming communities. I'm constantly learning, exploring, and pushing boundaries, always striving to make a positive impact.
-                </p>
-            </div>
-
             <div className="grid grid-cols-2 gap-2">
                 <div>
                     <h2 className='flex flex-row text-xl font-medium m-2'>
@@ -99,41 +72,11 @@ const AboutComponent = () => {
                         <li className='text-slate-700 p-2'>
                             <div className="flex">
                                 <TickIcon /> &nbsp;
-                                PhD in Philosophy, 2021 - Present
+                                Bachelor's in Economics and Mathematics, 2014 - 2020
                             </div>
                             <span className='text-sm'>University of Michigan</span>
                         </li>
 
-                        <li className='text-slate-700 p-2'>
-                            <div className="flex">
-                                <TickIcon /> &nbsp;
-                                PhD in Philosophy, 2021 - Present
-                            </div>
-                            <span className='text-sm'>University of Michigan</span>
-                        </li>
-                    </ul>
-
-                </div>
-
-                <div>
-                    <h2 className='flex flex-row text-xl font-medium m-2'>
-                        <World />
-                        <span className='ml-2'>Interests</span>
-                    </h2>
-
-                    <ul className="list-nome">
-                        <li className='text-slate-700 flex p-2'>
-                            <Misc />
-                            Gaming
-                        </li>
-                        <li className='text-slate-700 flex p-2'>
-                            <Misc />
-                            Sports
-                        </li>
-                        <li className='text-slate-700 flex p-2'>
-                            <Misc />
-                            Gym
-                        </li>
                     </ul>
 
                 </div>
