@@ -26,7 +26,7 @@ const AboutComponent = () => {
             />
             <span className='sm:text-base text-xl font-inter'>Seongyoon Kim</span>
             <span className='sm:text-base font-nunito font-light'>
-                Senior Cloud Engineer, Gamer
+                Development Economics; Trade/Spatial Economics; Environmental Economics
             </span>
 
             <div className='justify-center md:justify-start flex font-nunito font-normal text-blue-400 mt-5'>
@@ -38,13 +38,17 @@ const AboutComponent = () => {
         <div className="grid col-span-3 rounded-lg p-2 font-nunito">
             <div>
                 <h1 className='text-xl md:text-2xl font-medium m-2'>
-                About Me: <span className='font-normal'>Cloud Architect by Day, Gamer by Night</span>
+<<<<<<< Updated upstream
+                About Me: <span className='font-normal'></span>
+=======
+                About Me: <span className='font-normal'>by Day, Gamer by Night</span>
+>>>>>>> Stashed changes
                 </h1>
 
                 <p className=' leading-loose text-justify mb-5 p-2 text-slate-700'>
-                    I'm a passionate individual with two distinct sides: a cloud engineer building scalable solutions by day and 
-                    a dedicated gamer exploring virtual worlds by night. This unique combination fuels my creativity and drives 
-                    me to constantly push boundaries in both realms.
+                    I'm a third year PhD student in Economics at the University of Michigan. My research lies in the development economics, drawing inspiration from trade and spatial models. I am interested in firms, migration, and the effects of infrastructure development. 
+
+                    I received my bachelors' degree from New York University Abu Dhabi (NYUAD) in Economics and Mathematics in 2020. I can be reached at syoonkim[at]umich.edu
                 </p>
             </div>
 
