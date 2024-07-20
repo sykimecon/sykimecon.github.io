@@ -32,7 +32,7 @@ const Header = () => {
 
                 <Link className='flex flex-row transition-all ease-in-out duration-[0.2s] 
                 hover:border-b-2 hover:border-blue-500 hover:mb-2 hover:transition hover:p-4' 
-                href="/research">
+                href="/working-papers">
                     <span className='w-6 h-6 mr-2 transition'>
                         <AcademicCap />
                     </span>

@@ -9,7 +9,7 @@ const ResearchComponent = () => {
               Research
             </h1>
             <p>
-              Research <Link className="text-blue-500 italic" href="https://albertbanda.vercel.app/blog/posts/what_is_aws" target="_blank">statement</Link>
+              Research <Link className="text-blue-500 italic" href="" target="_blank">statement</Link>
             </p>
           </div>
       </div>
