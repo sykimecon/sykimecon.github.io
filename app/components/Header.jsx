@@ -27,7 +27,16 @@ const Header = () => {
                     <span className='w-6 h-6 mr-2 transition'>
                         <AcademicCap />
                     </span>
-                    Research
+                    Publications
+                </Link>
+
+                <Link className='flex flex-row transition-all ease-in-out duration-[0.2s] 
+                hover:border-b-2 hover:border-blue-500 hover:mb-2 hover:transition hover:p-4' 
+                href="/research">
+                    <span className='w-6 h-6 mr-2 transition'>
+                        <AcademicCap />
+                    </span>
+                    Working Papers
                 </Link>
 
                 <Link className='flex flex-row transition-all ease-in-out duration-[0.2s]
@@ -48,14 +57,7 @@ const Header = () => {
                     CV
                 </Link>
 
-                <Link className='flex flex-row transition-all ease-in-out duration-[0.2s]
-                hover:border-b-2 hover:border-blue-500 hover:mb-2 hover:transition hover:p-4' 
-                href="/misc">
-                    <span className='w-6 h-6 mr-2 transition'>
-                        <Misc />
-                    </span>
-                    Misc
-                </Link>
+ 
             </div>
         </div>
         <div className='flex grow items-center justify-end sm:hidden'>
