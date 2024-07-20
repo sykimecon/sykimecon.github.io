@@ -41,7 +41,7 @@ const Header = () => {
 
                 <Link className='flex flex-row transition-all ease-in-out duration-[0.2s]
                 hover:border-b-2 hover:border-blue-500 hover:mb-2 hover:transition hover:p-4' 
-                href="/sample_cv.pdf" download="Seonyoon_Kim_CV.pdf">
+                href="/sykim_cv2024.pdf" download="Seonyoon_Kim_CV.pdf">
                     <span className='w-6 h-6 mr-2 transition'>
                         <Folder />
                     </span>
@@ -126,7 +126,7 @@ const Header = () => {
                                     </Popover.Button>
                                     
                                     <Popover.Button as={Link} className='flex flex-row focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'
-                                    href="/sample_cv.pdf" download="Seonyoon_Kim_CV.pdf"    
+                                    href="/sykim_cv2024.pdf" download="Seonyoon_Kim_CV.pdf"    
                                     >
                                         <span className='w-6 h-6 mr-2 transition'>
                                             <Folder />
