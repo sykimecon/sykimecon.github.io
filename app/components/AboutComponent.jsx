@@ -31,7 +31,7 @@ const AboutComponent = () => {
 
             <div className='justify-center md:justify-start flex font-nunito font-normal text-blue-400 mt-5'>
                 <MailIcon />    
-                <Link href="mailto:ibenyxkg@duck.com" className='ml-2'>Mail</Link>
+                <Link href="syoonkim@umich.edu" className='ml-2'>Mail</Link>
             </div>
         </div>
 
@@ -64,7 +64,7 @@ const AboutComponent = () => {
                         <li className='text-slate-700 p-2'>
                             <div className="flex">
                                 <TickIcon /> &nbsp;
-                                PhD in Philosophy, 2021 - Present
+                                PhD in Economics, 2021 - Present
                             </div>
                             <span className='text-sm'>University of Michigan</span>
                         </li>
