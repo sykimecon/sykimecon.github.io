@@ -38,11 +38,7 @@ const AboutComponent = () => {
         <div className="grid col-span-3 rounded-lg p-2 font-nunito">
             <div>
                 <h1 className='text-xl md:text-2xl font-medium m-2'>
-<<<<<<< Updated upstream
                 About Me: <span className='font-normal'></span>
-=======
-                About Me: <span className='font-normal'>by Day, Gamer by Night</span>
->>>>>>> Stashed changes
                 </h1>
 
                 <p className=' leading-loose text-justify mb-5 p-2 text-slate-700'>
