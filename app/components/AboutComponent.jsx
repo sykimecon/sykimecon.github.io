@@ -41,11 +41,11 @@ const AboutComponent = () => {
       <div className="px-4 py-3 border-b border-border-light rounded-md transition-all duration-200 hover:bg-[#f7fafc] hover:shadow-[inset_3px_0_0_#2b6cb0]">
         <p className="mb-1 font-semibold text-slate-heading">
           Allocating Labor Across Small Firms: Experimental Evidence on Information Constraints
-          <a href="https://www.dropbox.com/scl/fi/tsbagohxjghtvdapylcn5/Draft_Apr_2024.pdf?rlkey=h4hs2ttwlk73m1mfuryc6xqhq&e=1&st=u8pzx94j&dl=0" target="_blank" rel="noopener noreferrer" className="ml-2 text-sm font-normal text-link-blue hover:text-link-blue-hover">
+          <a href="https://www.dropbox.com/scl/fi/qgebakl520nmc992t1ibx/Labor_Reallocation_Between_Small_Firms.pdf?rlkey=s74xo9rup5e0extuoazgvaib1&e=1&dl=0">
             [PDF]
           </a>
         </p>
-        <p className="text-sm text-slate-muted">with Morgan Hardy</p>
+        <p className="text-sm text-slate-muted">with Morgan Hardy, Jamie McCasland, Andreas Menzel, Marc Witte</p>
       </div>
     </div>
   )
