@@ -8,8 +8,7 @@ const AboutComponent = () => {
         <a href="https://lsa.umich.edu/econ" target="_blank" rel="noopener noreferrer" className="text-link-blue hover:text-link-blue-hover">
           University of Michigan
         </a>
-        . My research lies in development economics, drawing inspiration from trade and spatial
-        models. I am interested in firms, migration, and the effects of infrastructure development.
+        . My research lies in trade economics and development economics, often studying transportation infrastructure in developing economies. I am interested in infrastructure development and structural change. 
       </p>
 
       <p className="max-w-[42rem] mb-5">
@@ -34,14 +33,18 @@ const AboutComponent = () => {
 
       <hr className="border-0 h-px bg-border-light my-5" />
 
-      {/* JMP section */}
+      {/* Working Papers */}
       <h2 className="inline-block text-2xl font-bold text-slate-heading pb-2 border-b-2 border-link-blue mb-5">
-        Job Market Paper
+        Working Papers
       </h2>
 
       <div className="px-4 py-3 border-b border-border-light rounded-md transition-all duration-200 hover:bg-[#f7fafc] hover:shadow-[inset_3px_0_0_#2b6cb0]">
-        <p className="mb-1 font-semibold text-slate-heading">[Job Market Paper Title]</p>
-        <p className="text-sm text-slate-muted">[Brief description or one-line abstract of your job market paper.]</p>
+        <p className="mb-1 font-semibold text-slate-heading">
+          Allocating Labor Across Small Firms: Experimental Evidence on Information Constraints
+          <a href="https://www.dropbox.com/scl/fi/tsbagohxjghtvdapylcn5/Draft_Apr_2024.pdf?rlkey=h4hs2ttwlk73m1mfuryc6xqhq&e=1&st=u8pzx94j&dl=0" target="_blank" rel="noopener noreferrer" className="ml-2 text-sm font-normal text-link-blue hover:text-link-blue-hover">
+            [PDF]
+          </a>
+        </p>
       </div>
     </div>
   )
