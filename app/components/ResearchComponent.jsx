@@ -18,52 +18,41 @@ const papers = {
       pdf: 'https://www.dropbox.com/scl/fi/tsbagohxjghtvdapylcn5/Draft_Apr_2024.pdf?rlkey=h4hs2ttwlk73m1mfuryc6xqhq&e=1&st=u8pzx94j&dl=0',
     },
   ],
-  workInProgress: [
-    // { title: '', coauthors: '' },
-  ],
+  workInProgress: [],
 }
 
 function AbstractToggle({ text }) {
   const [open, setOpen] = useState(false)
-
   if (!text || text.startsWith('[')) return null
 
   return (
-    <>
+    <div className="mt-1">
       <button
         onClick={() => setOpen(!open)}
-        className="abstract-toggle"
-        style={{ marginLeft: '0.25rem' }}
+        className="text-sm text-link-blue hover:text-link-blue-hover hover:underline hover:underline-offset-2 bg-transparent border-0 cursor-pointer p-0"
       >
-        <span className="abstract-toggle-icon">{open ? '[\u2212]' : '[+]'}</span> Abstract
+        <span className="text-xs">{open ? '[\u2212]' : '[+]'}</span> Abstract
       </button>
       {open && (
-        <p style={{ marginTop: '0.5rem', fontSize: '0.9rem', color: 'var(--color-text-muted)', lineHeight: '1.6' }}>
-          {text}
-        </p>
+        <p className="mt-2 text-sm text-slate-muted leading-relaxed">{text}</p>
       )}
-    </>
+    </div>
   )
 }
 
-function PaperEntry({ paper }) {
+function PaperCard({ paper }) {
   return (
-    <div className="paper-card">
-      <p className="paper-title">
+    <div className="px-4 py-3 border-b border-border-light rounded-md transition-all duration-200 hover:bg-[#f7fafc] hover:shadow-[inset_3px_0_0_#2b6cb0] last:border-b-0">
+      <p className="mb-1 font-semibold text-slate-heading">
         {paper.title}
         {paper.pdf && (
-          <a
-            href={paper.pdf}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ marginLeft: '0.5rem', fontSize: '0.875rem', fontWeight: 400 }}
-          >
+          <a href={paper.pdf} target="_blank" rel="noopener noreferrer" className="ml-2 text-sm font-normal text-link-blue hover:text-link-blue-hover">
             [PDF]
           </a>
         )}
       </p>
       {paper.coauthors && (
-        <p className="paper-meta">with {paper.coauthors}</p>
+        <p className="text-sm text-slate-muted mb-1">with {paper.coauthors}</p>
       )}
       <AbstractToggle text={paper.abstract} />
     </div>
@@ -73,21 +62,27 @@ function PaperEntry({ paper }) {
 const ResearchComponent = () => {
   return (
     <div>
-      <h2 className="section-heading">Job Market Paper</h2>
-      <PaperEntry paper={papers.jmp} />
+      <h2 className="inline-block text-2xl font-bold text-slate-heading pb-2 border-b-2 border-link-blue mb-5">
+        Job Market Paper
+      </h2>
+      <PaperCard paper={papers.jmp} />
 
-      <h2 className="section-heading" style={{ marginTop: '2rem' }}>Working Papers</h2>
+      <h2 className="inline-block text-2xl font-bold text-slate-heading pb-2 border-b-2 border-link-blue mb-5 mt-8">
+        Working Papers
+      </h2>
       {papers.workingPapers.map((paper, i) => (
-        <PaperEntry key={i} paper={paper} />
+        <PaperCard key={i} paper={paper} />
       ))}
 
-      <h2 className="section-heading" style={{ marginTop: '2rem' }}>Work in Progress</h2>
+      <h2 className="inline-block text-2xl font-bold text-slate-heading pb-2 border-b-2 border-link-blue mb-5 mt-8">
+        Work in Progress
+      </h2>
       {papers.workInProgress.length > 0 ? (
         papers.workInProgress.map((paper, i) => (
-          <PaperEntry key={i} paper={paper} />
+          <PaperCard key={i} paper={paper} />
         ))
       ) : (
-        <p style={{ color: 'var(--color-text-muted)', fontStyle: 'italic' }}>Coming soon.</p>
+        <p className="text-slate-muted italic text-sm">Coming soon.</p>
       )}
     </div>
   )
