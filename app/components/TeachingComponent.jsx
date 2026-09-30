@@ -1,9 +1,9 @@
 // ——— Teaching data (edit here to add/update entries) ———
 const courses = [
-  {
-    term: 'Fall 2023',
-    course: 'Introduction to Statistics and Econometrics II (Econ 452)',
-  },
+  { term: 'Fall 2024', course: 'Econ 452: Introduction to Econometrics II. Instructor: Asenka Asenova' },
+  { term: 'Winter 2024', course: 'Econ 452: Introduction to Econometrics II. Instructor: Asenka Asenova' },
+  { term: 'Fall 2023', course: 'Econ 452: Introduction to Econometrics II. Instructor: Asenka Asenova' },
+  { term: 'Winter 2023', course: 'Econ 101: Principles of Economics I. Instructor: James Adams' },
 ]
 
 const TeachingComponent = () => {

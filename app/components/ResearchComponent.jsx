@@ -12,7 +12,14 @@ const papers = {
       pdf: 'https://www.dropbox.com/scl/fi/tsbagohxjghtvdapylcn5/Draft_Apr_2024.pdf?rlkey=h4hs2ttwlk73m1mfuryc6xqhq&e=1&st=u8pzx94j&dl=0',
     },
   ],
-  workInProgress: [],
+  workInProgress: [
+    {
+      title: 'The Effect of Roads on Commodity Flows in Brazil',
+      coauthors: '',
+      abstract: '',
+      pdf: '',
+    },
+  ],
 }
 
 function AbstractToggle({ text }) {

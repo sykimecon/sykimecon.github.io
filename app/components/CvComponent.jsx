@@ -1,5 +1,5 @@
 const CvComponent = () => {
-  const cvPath = './sykim_cv2024.pdf'
+  const cvPath = '/sykim_cv2024.pdf'
 
   return (
     <div>
