@@ -23,7 +23,7 @@ const papers = {
     },
     {
       title: 'Market Access and Household-Level Specialization: Evidence from Road-Building in Malawi',
-      coauthors: '[Coauthor Name]',
+      coauthors: '',
       abstract: '[Your abstract here]',
       pdf: '',
     },
