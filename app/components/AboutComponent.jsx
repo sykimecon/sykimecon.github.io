@@ -31,22 +31,6 @@ const AboutComponent = () => {
         <strong className="text-slate-heading">Curriculum Vitae</strong>
       </Link>
 
-      <hr className="border-0 h-px bg-border-light my-5" />
-
-      {/* Publications */}
-      <h2 className="inline-block text-2xl font-bold text-slate-heading pb-2 border-b-2 border-link-blue mb-5">
-        Publications
-      </h2>
-
-      <div className="px-4 py-3 border-b border-border-light rounded-md transition-all duration-200 hover:bg-[#f7fafc] hover:shadow-[inset_3px_0_0_#2b6cb0]">
-        <p className="mb-1 font-semibold text-slate-heading">
-          Allocating Labor Across Small Firms: Experimental Evidence on Information Constraints
-          <a href="https://www.dropbox.com/scl/fi/qgebakl520nmc992t1ibx/Labor_Reallocation_Between_Small_Firms.pdf?rlkey=s74xo9rup5e0extuoazgvaib1&e=1&dl=0">
-            [PDF]
-          </a>
-        </p>
-        <p className="text-sm text-slate-muted">with Morgan Hardy, Jamie McCasland, Andreas Menzel, Marc Witte</p>
-      </div>
     </div>
   )
 }
