@@ -16,20 +16,32 @@ const papers = {
   ],
   workInProgress: [
     {
-      title: 'The Effect of Roads on Commodity Flows in Brazil',
+      title: 'Network Complementarities in Maritime Trade Infrastructure: Evidence from the Philippines',
       coauthors: '',
       abstract: '[Your abstract here]',
       pdf: '',
     },
     {
-      title: '[Paper Title Placeholder 2]',
+      title: 'Market Access and Household-Level Specialization: Evidence from Road-Building in Malawi',
       coauthors: '[Coauthor Name]',
       abstract: '[Your abstract here]',
       pdf: '',
     },
     {
-      title: '[Paper Title Placeholder 3]',
+      title: 'Distributional Environmental Consequences of the Trade of Used Vehicles',
       coauthors: '',
+      abstract: '[Your abstract here]',
+      pdf: '',
+    },
+        {
+      title: 'Agricultural Productivity, Market Access, and Spatial Structural Change',
+      coauthors: 'Henry Young',
+      abstract: '[Your abstract here]',
+      pdf: '',
+    },
+          {
+      title: 'Timing of Cash Transfers in the context of Climate Change-Induced Weather Shocks',
+      coauthors: 'Gaea Morales',
       abstract: '[Your abstract here]',
       pdf: '',
     },

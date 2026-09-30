@@ -2,12 +2,11 @@
 // EDIT YOUR TEACHING HERE — just update the array below
 // ═══════════════════════════════════════════════════════
 const courses = [
-  { term: 'Fall 2024', course: 'Econ 452: Introduction to Econometrics II. Instructor: Asenka Asenova' },
-  { term: 'Winter 2024', course: 'Econ 452: Introduction to Econometrics II. Instructor: Asenka Asenova' },
-  { term: 'Fall 2023', course: 'Econ 452: Introduction to Econometrics II. Instructor: Asenka Asenova' },
-  { term: 'Winter 2023', course: 'Econ 101: Principles of Economics I. Instructor: James Adams' },
-  // { term: '[Term]', course: '[Course Number]: [Course Name]. Instructor: [Name]' },
-  // { term: '[Term]', course: '[Course Number]: [Course Name]. Instructor: [Name]' },
+  { term: 'Winter 2026', course: 'Econ 409: Introduction to Game Theory. Instructor: Doron Ravid' },
+  { term: 'Winter 2024', course: 'Econ 461: Economic Development. Instructor: Emma Riley' },
+  { term: 'Fall 2023', course: 'Econ 251: Introduction to Statistics and Econometrics. Instructor: Olga Lazareva' },
+  { term: 'Winter 2023, Fall 2024, Winter 2025', course: 'ECON 401: Intermediate Microeconomics. Instructor: Chris Proulx' },
+  { term: 'Fall 2022, Fall 2025', course: 'ECON 401: Intermediate Microeconomics. Instructor: David Miller' },
 ]
 
 const TeachingComponent = () => {
