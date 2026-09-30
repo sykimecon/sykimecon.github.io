@@ -9,9 +9,9 @@ const papers = {
   publications: [
     {
       title: 'Allocating Labor Across Small Firms: Experimental Evidence on Information Constraints',
-      coauthors: 'Morgan Hardy',
+      coauthors: 'Morgan Hardy', 'Jamie McCasland', 'Andreas Menzel', 'Marc Witte',
       abstract: '[Your abstract here]',
-      pdf: 'https://www.dropbox.com/scl/fi/tsbagohxjghtvdapylcn5/Draft_Apr_2024.pdf?rlkey=h4hs2ttwlk73m1mfuryc6xqhq&e=1&st=u8pzx94j&dl=0',
+      pdf: 'https://www.dropbox.com/scl/fi/qgebakl520nmc992t1ibx/Labor_Reallocation_Between_Small_Firms.pdf?rlkey=s74xo9rup5e0extuoazgvaib1&e=1&dl=0',
     },
   ],
   workInProgress: [
