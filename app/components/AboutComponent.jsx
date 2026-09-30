@@ -33,9 +33,9 @@ const AboutComponent = () => {
 
       <hr className="border-0 h-px bg-border-light my-5" />
 
-      {/* Working Papers */}
+      {/* Publications */}
       <h2 className="inline-block text-2xl font-bold text-slate-heading pb-2 border-b-2 border-link-blue mb-5">
-        Working Papers
+        Publications
       </h2>
 
       <div className="px-4 py-3 border-b border-border-light rounded-md transition-all duration-200 hover:bg-[#f7fafc] hover:shadow-[inset_3px_0_0_#2b6cb0]">
@@ -45,6 +45,7 @@ const AboutComponent = () => {
             [PDF]
           </a>
         </p>
+        <p className="text-sm text-slate-muted">with Morgan Hardy</p>
       </div>
     </div>
   )

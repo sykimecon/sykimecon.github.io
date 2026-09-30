@@ -1,9 +1,13 @@
-// ——— Teaching data (edit here to add/update entries) ———
+// ═══════════════════════════════════════════════════════
+// EDIT YOUR TEACHING HERE — just update the array below
+// ═══════════════════════════════════════════════════════
 const courses = [
   { term: 'Fall 2024', course: 'Econ 452: Introduction to Econometrics II. Instructor: Asenka Asenova' },
   { term: 'Winter 2024', course: 'Econ 452: Introduction to Econometrics II. Instructor: Asenka Asenova' },
   { term: 'Fall 2023', course: 'Econ 452: Introduction to Econometrics II. Instructor: Asenka Asenova' },
   { term: 'Winter 2023', course: 'Econ 101: Principles of Economics I. Instructor: James Adams' },
+  // { term: '[Term]', course: '[Course Number]: [Course Name]. Instructor: [Name]' },
+  // { term: '[Term]', course: '[Course Number]: [Course Name]. Instructor: [Name]' },
 ]
 
 const TeachingComponent = () => {

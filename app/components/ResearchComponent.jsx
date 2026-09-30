@@ -2,13 +2,15 @@
 
 import { useState } from 'react'
 
-// ——— Paper data (edit here to add/update papers) ———
+// ═══════════════════════════════════════════════════════
+// EDIT YOUR PAPERS HERE — just update the arrays below
+// ═══════════════════════════════════════════════════════
 const papers = {
-  workingPapers: [
+  publications: [
     {
       title: 'Allocating Labor Across Small Firms: Experimental Evidence on Information Constraints',
-      coauthors: '',
-      abstract: '',
+      coauthors: 'Morgan Hardy',
+      abstract: '[Your abstract here]',
       pdf: 'https://www.dropbox.com/scl/fi/tsbagohxjghtvdapylcn5/Draft_Apr_2024.pdf?rlkey=h4hs2ttwlk73m1mfuryc6xqhq&e=1&st=u8pzx94j&dl=0',
     },
   ],
@@ -16,7 +18,19 @@ const papers = {
     {
       title: 'The Effect of Roads on Commodity Flows in Brazil',
       coauthors: '',
-      abstract: '',
+      abstract: '[Your abstract here]',
+      pdf: '',
+    },
+    {
+      title: '[Paper Title Placeholder 2]',
+      coauthors: '[Coauthor Name]',
+      abstract: '[Your abstract here]',
+      pdf: '',
+    },
+    {
+      title: '[Paper Title Placeholder 3]',
+      coauthors: '',
+      abstract: '[Your abstract here]',
       pdf: '',
     },
   ],
@@ -64,22 +78,18 @@ const ResearchComponent = () => {
   return (
     <div>
       <h2 className="inline-block text-2xl font-bold text-slate-heading pb-2 border-b-2 border-link-blue mb-5">
-        Working Papers
+        Publications
       </h2>
-      {papers.workingPapers.map((paper, i) => (
+      {papers.publications.map((paper, i) => (
         <PaperCard key={i} paper={paper} />
       ))}
 
       <h2 className="inline-block text-2xl font-bold text-slate-heading pb-2 border-b-2 border-link-blue mb-5 mt-8">
         Work in Progress
       </h2>
-      {papers.workInProgress.length > 0 ? (
-        papers.workInProgress.map((paper, i) => (
-          <PaperCard key={i} paper={paper} />
-        ))
-      ) : (
-        <p className="text-slate-muted italic text-sm">Coming soon.</p>
-      )}
+      {papers.workInProgress.map((paper, i) => (
+        <PaperCard key={i} paper={paper} />
+      ))}
     </div>
   )
 }
